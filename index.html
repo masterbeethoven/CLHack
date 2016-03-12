@@ -12,13 +12,10 @@
   <script>
   $(function() {
     var availableTags = [
-      "Bars",
-      "Concerts",
-      "Dance",
-      "Entertainment",
-      "Free Events",
+      "Ambience",
+      "Footsteps",
       "Music",
-      "Restaurants"
+      "Random Noise"
     ];
     $( "#tags" ).autocomplete({
       source: availableTags
@@ -46,7 +43,7 @@
     <div class="jumbotron">
       <div class="container">
         <form name="frm" ng-submit="thingsToDo()">
-          <input id="tags" placeholder="What do you want to do?" name="newtodo" ng-model="newtodo" required />
+          <input id="tags" placeholder="  I would like to hear..." name="newtodo" ng-model="newtodo" required />
              <!--<label for="tags">Tags: </label>-->
              <!--<input id="tags">-->
         <p>Find over 3400 events to do in your area. </p>
